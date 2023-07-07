@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Songs.Provider value={{ DataSongs , song , handleSetSong }}>
         <Navbar/>
-        <div className='grid grid-cols-3 bg-violet-950 h-screen-navbar-player overflow-hidden'>
+        <div className='grid lg:grid-cols-3 sm:grid-cols-none bg-violet-950 h-screen-navbar-player overflow-hidden'>
           <DetailSong/>
           <ListSongs/>
         </div>
